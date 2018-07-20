@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77349E65210274230062F9D1 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77349E64210274230062F9D1 /* PageCell.swift */; };
+		77349E67210274440062F9D1 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77349E66210274440062F9D1 /* Page.swift */; };
+		77349E6921027A4F0062F9D1 /* SwipeableViewController + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77349E6821027A4F0062F9D1 /* SwipeableViewController + extension.swift */; };
+		77349E6B21027AA60062F9D1 /* SwipeableViewController + UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77349E6A21027AA60062F9D1 /* SwipeableViewController + UICollectionView.swift */; };
+		77349E6D21027B2C0062F9D1 /* SwipeableViewController + UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77349E6C21027B2C0062F9D1 /* SwipeableViewController + UIScrollView.swift */; };
 		7767FA502102721B009726A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767FA4F2102721B009726A8 /* AppDelegate.swift */; };
-		7767FA522102721B009726A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767FA512102721B009726A8 /* ViewController.swift */; };
-		7767FA552102721B009726A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7767FA532102721B009726A8 /* Main.storyboard */; };
 		7767FA572102721C009726A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7767FA562102721C009726A8 /* Assets.xcassets */; };
-		7767FA5A2102721C009726A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7767FA582102721C009726A8 /* LaunchScreen.storyboard */; };
+		7767FA62210272B3009726A8 /* SwipeableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767FA61210272B3009726A8 /* SwipeableViewController.swift */; };
+		7767FA64210272F4009726A8 /* UIColor + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7767FA63210272F4009726A8 /* UIColor + extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77349E64210274230062F9D1 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		77349E66210274440062F9D1 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		77349E6821027A4F0062F9D1 /* SwipeableViewController + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeableViewController + extension.swift"; sourceTree = "<group>"; };
+		77349E6A21027AA60062F9D1 /* SwipeableViewController + UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeableViewController + UICollectionView.swift"; sourceTree = "<group>"; };
+		77349E6C21027B2C0062F9D1 /* SwipeableViewController + UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipeableViewController + UIScrollView.swift"; sourceTree = "<group>"; };
 		7767FA4C2102721B009726A8 /* Simple FTUX Swipeable Pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple FTUX Swipeable Pages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7767FA4F2102721B009726A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7767FA512102721B009726A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7767FA542102721B009726A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7767FA562102721C009726A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7767FA592102721C009726A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7767FA5B2102721C009726A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7767FA61210272B3009726A8 /* SwipeableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableViewController.swift; sourceTree = "<group>"; };
+		7767FA63210272F4009726A8 /* UIColor + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +63,14 @@
 			isa = PBXGroup;
 			children = (
 				7767FA4F2102721B009726A8 /* AppDelegate.swift */,
-				7767FA512102721B009726A8 /* ViewController.swift */,
-				7767FA532102721B009726A8 /* Main.storyboard */,
+				7767FA61210272B3009726A8 /* SwipeableViewController.swift */,
+				77349E6A21027AA60062F9D1 /* SwipeableViewController + UICollectionView.swift */,
+				77349E6C21027B2C0062F9D1 /* SwipeableViewController + UIScrollView.swift */,
+				77349E6821027A4F0062F9D1 /* SwipeableViewController + extension.swift */,
+				77349E64210274230062F9D1 /* PageCell.swift */,
+				77349E66210274440062F9D1 /* Page.swift */,
+				7767FA63210272F4009726A8 /* UIColor + extension.swift */,
 				7767FA562102721C009726A8 /* Assets.xcassets */,
-				7767FA582102721C009726A8 /* LaunchScreen.storyboard */,
 				7767FA5B2102721C009726A8 /* Info.plist */,
 			);
 			path = "Simple FTUX Swipeable Pages";
@@ -122,9 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7767FA5A2102721C009726A8 /* LaunchScreen.storyboard in Resources */,
 				7767FA572102721C009726A8 /* Assets.xcassets in Resources */,
-				7767FA552102721B009726A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,31 +145,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7767FA522102721B009726A8 /* ViewController.swift in Sources */,
+				7767FA64210272F4009726A8 /* UIColor + extension.swift in Sources */,
 				7767FA502102721B009726A8 /* AppDelegate.swift in Sources */,
+				77349E65210274230062F9D1 /* PageCell.swift in Sources */,
+				7767FA62210272B3009726A8 /* SwipeableViewController.swift in Sources */,
+				77349E6B21027AA60062F9D1 /* SwipeableViewController + UICollectionView.swift in Sources */,
+				77349E6D21027B2C0062F9D1 /* SwipeableViewController + UIScrollView.swift in Sources */,
+				77349E67210274440062F9D1 /* Page.swift in Sources */,
+				77349E6921027A4F0062F9D1 /* SwipeableViewController + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7767FA532102721B009726A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7767FA542102721B009726A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7767FA582102721C009726A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7767FA592102721C009726A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7767FA5C2102721C009726A8 /* Debug */ = {
